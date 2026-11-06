@@ -100,6 +100,8 @@ async def on_message(message):
             "$roast - Get a random roast\n"
             "$idea - Get a random idea for environmental action\n"
             "$color - Get a random color name\n"
+            "$pickup - Get a random pickup line\n"
+            "$compliment - Get a random compliment\n"
             "$help - Show this help message"
         )
         await message.channel.send(help_message)
